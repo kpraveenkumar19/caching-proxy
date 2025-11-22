@@ -3,11 +3,10 @@
   Caching Proxy
 </h1>
 
-A high-performance CLI tool that acts as a caching reverse proxy server. It reduces repeated server hits by reusing cached disk responses.It will forward requests to the actual server and cache the responses on the disk. If the same request is made again, it will return the cached response instead of forwarding the request to the server.
+A high-performance CLI tool that acts as a caching [reverse proxy](https://www.cloudflare.com/en-in/learning/cdn/glossary/reverse-proxy/) server. It reduces repeated server hits by reusing cached disk responses.It will forward requests to the actual server and cache the responses on the disk. If the same request is made again, it will return the cached response instead of forwarding the request to the server.
 
 ## Table of Contents
 
-- [Features](#features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -15,15 +14,6 @@ A high-performance CLI tool that acts as a caching reverse proxy server. It redu
   - [Command Line Options](#command-line-options)
   - [Examples](#examples)
 - [Contributing](#contributing)
-
-## Features
-
-- **Reverse Proxy**: Seamlessly forwards requests to any specified origin server.
-- **Disk-Based Caching**: Caches HTTP responses locally on disk (JSON format) for persistence.
-- **Smart Caching Logic**: Uses a deterministic key generation strategy based on the request method, URL, and headers.
-- **Cache Management**: Includes built-in commands to clear the cached data.
-- **CLI Configurable**: Easily configure port, origin, cache location, and logging levels via command-line flags.
-- **Concurrent & Safe**: Designed to handle concurrent requests safely.
 
 ## Getting Started
 
