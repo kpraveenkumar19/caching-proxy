@@ -104,6 +104,8 @@ Clears the cache in the default OS user cache directory
 ```bash
 ./bin/caching-proxy --clear-cache 
 ```
+example logs :
+
 ![example](assets/images/example.png)
 
 ## Contributing

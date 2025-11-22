@@ -26,7 +26,7 @@ A high-performance CLI tool that acts as a caching [reverse proxy](https://www.c
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/kpraveenkumar19/caching-proxy
    cd caching-proxy
    ```
 
@@ -94,6 +94,8 @@ Clears the cache in the default OS user cache directory
 ```bash
 ./bin/caching-proxy --clear-cache 
 ```
+
+example logs :
 ![example](assets/images/example.png)
 ## Contributing
 
