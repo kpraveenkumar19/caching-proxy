@@ -3,7 +3,7 @@
   Caching Proxy
 </h1>
 
-A high-performance CLI tool that acts as a caching reverse proxy server. It reduces repeated server hits by reusing cached disk responses.It will forward requests to the actual server and cache the responses on the disk. If the same request is made again, it will return the cached response instead of forwarding the request to the server.
+A high-performance CLI tool that acts as a caching [reverse proxy](https://www.cloudflare.com/en-in/learning/cdn/glossary/reverse-proxy/) server. It reduces repeated server hits by reusing cached disk responses.It will forward requests to the actual server and cache the responses on the disk. If the same request is made again, it will return the cached response instead of forwarding the request to the server.
 
 ## Table of Contents
 
@@ -36,7 +36,7 @@ A high-performance CLI tool that acts as a caching reverse proxy server. It redu
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/kpraveenkumar19/caching-proxy
    cd caching-proxy
    ```
 
@@ -105,6 +105,7 @@ Clears the cache in the default OS user cache directory
 ./bin/caching-proxy --clear-cache 
 ```
 [!example](assets/images/example.png)
+
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
