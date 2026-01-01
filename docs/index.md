@@ -3,7 +3,7 @@
   Caching Proxy
 </h1>
 
-A high-performance CLI tool that acts as a caching [reverse proxy](https://www.cloudflare.com/en-in/learning/cdn/glossary/reverse-proxy/) server. It reduces repeated server hits by reusing cached disk responses.It will forward requests to the actual server and cache the responses on the disk. If the same request is made again, it will return the cached response instead of forwarding the request to the server.
+A high-performance CLI tool that acts as a caching <a href="https://www.cloudflare.com/en-in/learning/cdn/glossary/reverse-proxy/" target="_blank" rel="noopener noreferrer">reverse proxy</a> server. It reduces repeated server hits by reusing cached disk responses.It will forward requests to the actual server and cache the responses on the disk. If the same request is made again, it will return the cached response instead of forwarding the request to the server.
 
 ## Table of Contents
 
@@ -29,7 +29,7 @@ A high-performance CLI tool that acts as a caching [reverse proxy](https://www.c
 
 ### Prerequisites
 
-- **Go**: You need to have Go installed (version 1.18 or later recommended). [Download Go](https://go.dev/dl/).
+- **Go**: You need to have Go installed (version 1.18 or later recommended). <a href="https://go.dev/dl/" target="_blank" rel="noopener noreferrer">Download Go</a>.
 - **Make**: (Optional) For using the provided Makefile.
 
 ### Installation
